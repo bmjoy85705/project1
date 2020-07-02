@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'Saira Condensed', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.namehigh{
+    color: chartreuse;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin: 5%;
+    padding-left: 2%;
+   
+}
+.half-width img{
+    width: 100%;
+}
+.direct-link{
+    text-decoration: none;
+    background-image: linear-gradient(green,mediumseagreen);
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: mediumseagreen;
+    color: white;
+    font-weight: 700;
+}
+.top-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 500px;
+    
+    
+}
+.dream-section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
