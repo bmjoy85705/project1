@@ -15,8 +15,9 @@ h1{
     padding-left: 2%;
    
 }
-.half-width img{
+.side-img{
     width: 100%;
+    
 }
 .direct-link{
     text-decoration: none;
@@ -34,12 +35,36 @@ h1{
     
 }
 section{
-    height: 500px;
+    height: 600px;
+    
     
     
 }
 .dream-section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: right;
+}
+.experience{
+    margin-top: 10%;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    height: 50%;
+    border-left: 7px solid;
+
+}
+#first-exp{
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#second-exp{
+     border-image: linear-gradient(blue,cyan);
+     border-image-slice: 2;
+}
+footer p {
+    text-align: center;
 }
